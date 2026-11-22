@@ -4,11 +4,11 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
-import android.support.annotation.ColorRes;
-import android.support.annotation.StringRes;
-import android.support.v4.app.Fragment;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.CardView;
+import androidx.annotation.ColorRes;
+import androidx.annotation.StringRes;
+import androidx.fragment.app.Fragment;
+import androidx.core.content.ContextCompat;
+import androidx.cardview.widget.CardView;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -198,3 +198,4 @@ public class FancyWalkthroughFragment extends Fragment {
         return tvOnboarderDescription;
     }
 }
+
